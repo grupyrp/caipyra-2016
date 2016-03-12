@@ -460,3 +460,11 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+td, th {
+    padding: 2px 10px;
+}
+
+tr:nth-child(even) {
+    opacity: 0.7;
+}
