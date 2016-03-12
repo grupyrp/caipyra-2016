@@ -1,0 +1,9 @@
+# Build
+_site
+
+# Apple stuff
+.DS_Store
+
+# Vim
+*.swp
+*.swo
