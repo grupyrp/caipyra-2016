@@ -24,11 +24,11 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 96A623 #80B3FF
-  primary-rgb: "150, 166, 35" #"128,179,255"
+  primary: EE5A28;
   secondary: 343434 #FD6E8A
   secondary-dark: 343434 #A2122F
-  navbar-font: EE5A28;
+  background-green: 96A623
+  background-green-rgb: "150, 166, 35"
 
 # Footer settings
 footer:
