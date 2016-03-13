@@ -3,9 +3,9 @@ layout: default
 modal-id: 2
 date: 2015-11-01
 frame: aqua.png
-pic: placeholder_girl.svg
+pic: cassio.jpg
 alt: image-alt
-title: Palestrante 2
+title: Cássio Souza
 talk: TBD
 talk-date: TBD
 description: Bio

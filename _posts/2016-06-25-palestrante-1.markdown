@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2015-12-01
-pic: placeholder_boy.svg
+pic: armando.jpg
 frame: pink.png
 alt: image-alt
-title: Palestrante 1
+title: Armando Neto
 talk: TBD
 talk-date: TBD
 description: Bio
