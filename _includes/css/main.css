@@ -202,6 +202,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+
+    section h2 {
+        font-size: 2.5em;
+    }
 }
 
 #portfolio .portfolio-item {
