@@ -2,7 +2,8 @@
 layout: default
 modal-id: 5
 date: 2015-08-01
-img: sand.png
+frame: sand.png
+pic: placeholder_girl.svg
 alt: image-alt
 title: Palestrante 5
 talk: TBD

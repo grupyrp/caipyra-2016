@@ -2,7 +2,8 @@
 layout: default
 modal-id: 6
 date: 2015-07-01
-img: deep-blue.png
+frame: deep-blue.png
+pic: placeholder_boy.svg
 alt: image-alt
 title: Palestrante 6
 talk: TBD

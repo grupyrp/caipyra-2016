@@ -2,7 +2,8 @@
 layout: default
 modal-id: 3
 date: 2015-10-01
-img: black.png
+frame: black.png
+pic: placeholder_boy.svg
 alt: image-alt
 title: Palestrante 3
 talk: TBD

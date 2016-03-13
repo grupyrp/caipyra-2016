@@ -220,6 +220,25 @@ section.success {
     max-width: 400px;
 }
 
+#portfolio .speaker-picture,
+.modal .speaker-picture {
+    position: absolute;
+    top: 10%;
+    left: 21%;
+    height: 80%;
+    z-index: 1;
+}
+
+#portfolio .img-responsive,
+.modal .img-responsive {
+    position: relative;
+    z-index: 2;
+}
+
+.modal .speaker-wrapper {
+    position: relative;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;

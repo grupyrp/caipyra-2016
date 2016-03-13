@@ -2,7 +2,8 @@
 layout: default
 modal-id: 1
 date: 2015-12-01
-img: pink.png
+pic: placeholder_boy.svg
+frame: pink.png
 alt: image-alt
 title: Palestrante 1
 talk: TBD
