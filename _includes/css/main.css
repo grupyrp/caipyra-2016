@@ -206,6 +206,10 @@ section.success {
     section h2 {
         font-size: 2.3em;
     }
+
+    .portfolio-modal .modal-content .modal-body h2 {
+        font-size: 2.1em;
+    }
 }
 
 #portfolio .portfolio-item {
