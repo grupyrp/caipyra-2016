@@ -501,10 +501,12 @@ tr:nth-child(even) {
 }
 
 .submit-your-talk {
-    margin-bottom: 90px;
+    margin-top: 90px;
 }
 
 .submit-your-talk a {
-    color: #343434;
-    text-decoration: underline;
+    background: #fff;
+    color: #96A623;
+    padding: 10px;
+    text-decoration: none;
 }
