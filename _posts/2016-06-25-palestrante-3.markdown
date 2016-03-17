@@ -3,15 +3,15 @@ layout: default
 modal-id: 3
 date: 2015-10-01
 frame: black.png
-pic: placeholder_boy.svg
+pic: rodolpho.jpg
 alt: image-alt
-title: Palestrante 3
-talk: TBD
-talk-date: TBD
-description: Bio
+title: Rodolpho Eckhardt
+talk:
+talk-date:
+description: Rodolpho é engenheiro por formação, SRE por profissão, pai, hacker e malabarista por diversão. Trabalha no Google há dez anos, atualmente em Zurique com Site Reliability Engineer.
 
 # Optional
-site: TBD
-company: TBD
+site: https://rodo.lpho.de
+company: Google
 
 ---
