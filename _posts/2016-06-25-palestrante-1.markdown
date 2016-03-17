@@ -6,8 +6,8 @@ pic: armando.jpg
 frame: pink.png
 alt: image-alt
 title: Armando Neto
-talk: TBD
-talk-date: TBD
+talk:
+talk-date:
 description: Bio
 
 # Optional

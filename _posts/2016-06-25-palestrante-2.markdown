@@ -6,8 +6,8 @@ frame: aqua.png
 pic: cassio.jpg
 alt: image-alt
 title: Cássio Souza
-talk: TBD
-talk-date: TBD
+talk:
+talk-date:
 description: Bio
 
 # Optional
