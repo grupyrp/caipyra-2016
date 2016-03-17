@@ -20,17 +20,24 @@
                             </div>
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
+                                {% if post.talk %}
                                 <li>Palestra:
                                     <strong>{{ post.talk }}</strong>
                                 </li>
+                                {% endif %}
+
+                                {% if post.talk-date %}
                                 <li>Dia:
                                     <strong>{{ post.talk-date }}</strong>
                                 </li>
+                                {% endif %}
+
                                 {% if post.company %}
                                 <li>Empresa:
                                     <strong>{{ post.company }}</strong>
                                 </li>
                                 {% endif %}
+
                                 {% if post.site %}
                                 <li>Site:
                                     <strong><a href="{{ post.website }}">{{ post.site }}</a></strong>
