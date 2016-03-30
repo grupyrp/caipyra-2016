@@ -8,10 +8,10 @@ alt: image-alt
 title: Armando Neto
 talk:
 talk-date:
-description: Bio
+description: Nascido, criado e formado no interior; desenvolvedor na capital. Sortudo por trabalhar com Python desde 2010.
 
 # Optional
-site: TBD
+site: https://armandoneto.com
 company: TBD
 
 ---
