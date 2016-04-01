@@ -3,15 +3,15 @@ layout: default
 modal-id: 6
 date: 2015-07-01
 frame: deep-blue.png
-pic: placeholder_boy.svg
+pic: leticia.jpg
 alt: image-alt
-title: Palestrante 6
+title: Leticia Portella
 talk: TBD
 talk-date: TBD
-description: Bio
+description: Oceanógrafa de formação, mestranda em Oceanografia pela UFSC e uma das fundadoras do Pyladies Floripa. Descobriu-se amante da tecnologia e jogou-se na área de web development na eCentry em Floripa!
 
 # Optional
-site: TBD
-company: TBD
+site: https://twitter.com/leleportella
+company: eCentry
 
 ---
