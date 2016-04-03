@@ -6,8 +6,8 @@ frame: deep-blue.png
 pic: leticia.jpg
 alt: image-alt
 title: Leticia Portella
-talk: TBD
-talk-date: TBD
+talk: 
+talk-date: 
 description: Oceanógrafa de formação, mestranda em Oceanografia pela UFSC e uma das fundadoras do Pyladies Floripa. Descobriu-se amante da tecnologia e jogou-se na área de web development na eCentry em Floripa!
 
 # Optional
