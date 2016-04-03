@@ -239,6 +239,18 @@ section.success {
     z-index: 2;
 }
 
+.img-support {
+    display: inline-block;
+    width: 270px;
+    padding: 20px 70px;
+}
+
+#img-support-fmrp {
+    width: 220px;
+}
+
+.hr-white { border-top-color: white; }
+
 .modal .speaker-wrapper {
     position: relative;
 }
