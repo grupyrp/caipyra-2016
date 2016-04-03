@@ -241,13 +241,12 @@ section.success {
 
 .img-support {
     display: inline-block;
-    width: 270px;
-    padding: 20px 70px;
+    max-width: 100%;
+    max-height: 100px;
 }
 
-#img-support-fmrp {
-    width: 220px;
-}
+.img-support-fmrp { max-height: 120px; }
+.img-support-ceib{ max-height: 90px; }
 
 .hr-white { border-top-color: white; }
 
