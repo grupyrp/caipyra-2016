@@ -246,7 +246,14 @@ section.success {
 }
 
 .img-support-fmrp { max-height: 120px; }
-.img-support-ceib{ max-height: 90px; }
+.img-support-ceib { max-height: 90px; }
+
+@media(max-width:768px) {
+    .img-support {
+        max-width: 85%;
+        margin: 30px 10px;
+    }
+}
 
 .hr-white { border-top-color: white; }
 
