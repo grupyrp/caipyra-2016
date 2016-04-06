@@ -522,6 +522,12 @@ tr:nth-child(even) {
     margin-top: 90px;
 }
 
+@media(max-width:767px) {
+    .submit-your-talk {
+        font-size: 20px;
+    }
+}
+
 .submit-your-talk a {
     background: #fff;
     color: #96A623;
