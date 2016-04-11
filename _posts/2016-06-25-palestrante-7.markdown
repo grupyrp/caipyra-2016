@@ -3,15 +3,15 @@ layout: default
 modal-id: 7
 date: 2015-06-01
 frame: pink.png
-pic: placeholder_girl.svg
+pic: humberto.jpg
 alt: image-alt
-title: Palestrante 7
-talk: TBD
-talk-date: TBD
-description: Bio
+title: Humberto Diógenes
+talk:
+talk-date:
+description: Co-founder at Evolux
 
 # Optional
-site: TBD
-company: TBD
+site: https://github.com/hdiogenes
+company: Evolux
 
 ---
