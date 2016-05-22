@@ -79,20 +79,21 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
-.img-centered {
-    margin: 0 auto;
-}
-
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.background-green }};
+    /*background: #{{ site.color.background-green }};*/
+    background: #ffb431; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #ffb431 0%, #e74c3c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #ffb431 0%,#e74c3c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #ffb431 0%,#e74c3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb431', endColorstr='#e74c3c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
 }
-
+/*
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
+    padding: 50px 0;
+}*/
 
 header img {
     display: block;
@@ -112,10 +113,36 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+header .btn-buy {
+    position: absolute;
+    width: 260px;
+    bottom: -80px;
+    left: 50%;
+    margin-left: -130px;
+    border: 0;
+    background-color: #3c63b1;
+}
+
+header .btn-buy:hover {
+    background-color: #2e56a4;
+    opacity: 1;
+}
+
+/* Helpers */
+.img-centered {
+    margin: 0 auto;
+}
+.color-danger {
+    color: #e74c3c;
+}
+.va-middle {
+    vertical-align: middle;
+}
+
+
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding: 50px 0;
     }
 
     header .intro-text .name {
@@ -125,9 +152,7 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-}
 
-@media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -181,7 +206,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 section h2 {
@@ -503,6 +528,31 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
+/* Boostrap Media object */
+.media, .media .media {
+    margin-top: 25px;
+}
+
+.media-heading {
+    display: inline;
+}
+
+.media-body:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    margin: 40px 0px;
+    top: 23px;
+    left: 46px;
+    border-left: 2px solid #ccc;
+    z-index: -1;
+}
+
+.media-left .img-circle {
+    border: 1px solid #ccc;
+}
+
+
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
@@ -535,6 +585,14 @@ tr:nth-child(even) {
     text-decoration: none;
 }
 
+#organizers {
+    background: #818a8e url('img/grupy_team.jpg') no-repeat top center;
+}
+
 #organizers a {
     color: #fff;
+}
+
+#organizers hr.star-light:after {
+    background-color: #818a8e;
 }
