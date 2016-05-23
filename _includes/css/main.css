@@ -548,8 +548,23 @@ footer .footer-below {
     z-index: -1;
 }
 
+.media-left {
+    position: relative;
+}
+
 .media-left .img-circle {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+}
+
+.media-left.lightning-talk:before  {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url('img/icon_lightning.png') no-repeat;
+    top: 4px;
+    left: 48px;
 }
 
 
