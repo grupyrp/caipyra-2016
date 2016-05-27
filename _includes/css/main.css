@@ -533,7 +533,7 @@ tr:nth-child(even) {
 }
 
 #organizers {
-    background: #818a8e url('img/grupy_team.jpg') no-repeat top center;
+    background: #7d868b url('img/grupy_team.jpg') no-repeat bottom center;
 }
 
 #organizers a {
@@ -541,7 +541,7 @@ tr:nth-child(even) {
 }
 
 #organizers hr.star-light:after {
-    background-color: #818a8e;
+    background-color: #7d868b;
 }
 
 @media(min-width:767px) {
