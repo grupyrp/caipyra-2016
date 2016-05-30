@@ -8,7 +8,7 @@ alt: image-alt
 title: Rodolpho Eckhardt
 talk:
 talk-date:
-description: Rodolpho é engenheiro por formação, SRE por profissão, pai, hacker e malabarista por diversão. Trabalha no Google há dez anos, atualmente em Zurique com Site Reliability Engineer.
+description: Rodolpho é engenheiro por formação, SRE por profissão, pai, hacker e malabarista por diversão. Trabalha no Google há dez anos, atualmente em Zurique como Site Reliability Engineer.
 
 # Optional
 site: https://rodo.lpho.de
