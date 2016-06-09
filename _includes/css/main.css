@@ -486,6 +486,10 @@ footer .footer-below {
     z-index: -1;
 }
 
+.media-body.last:before {
+    border-left: 0;
+}
+
 .media-left {
     position: relative;
 }
