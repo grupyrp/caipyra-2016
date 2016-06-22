@@ -529,6 +529,19 @@ tr:nth-child(even) {
     margin-top: 90px;
 }
 
+.sprints-description h3 {
+    text-align: center;
+}
+
+.sprints-description h4 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sprints-description p {
+    text-indent: 50px;
+}
+
 .submit-your-talk a {
     background: #fff;
     color: #96A623;
