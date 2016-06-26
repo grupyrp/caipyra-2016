@@ -24,9 +24,19 @@
 
     {% include footer.html %}
     {% include modals.html %}
-    {% comment %}
-    {% include js.html %}
-    {% endcomment %}
+
+    <div id="carreta-furacao">
+        <iframe id="fofao" width="640" height="480" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Dont use Konami Code -->
+    <script src="{{ "js/konami.js" }}"></script>
+    <script>
+        var easter_egg = new Konami(function() { 
+            document.getElementById('fofao').src = 'https://www.youtube.com/embed/qN4AUs61J_o?autoplay=1';
+            document.getElementById('carreta-furacao').style.display = 'block';
+        });
+    </script> 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
