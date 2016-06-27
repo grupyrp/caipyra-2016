@@ -32,9 +32,21 @@
     <!-- Dont use Konami Code -->
     <script src="{{ "js/konami.js" }}"></script>
     <script>
+        var wrapper = document.getElementById('carreta-furacao');
+            
         var easter_egg = new Konami(function() { 
-            document.getElementById('fofao').src = 'https://www.youtube.com/watch?v=KYdy_jNkoGU?autoplay=1';
-            document.getElementById('carreta-furacao').style.display = 'block';
+            var frame = document.createElement('iframe');
+            
+            frame.src = '//www.youtube.com/embed/KYdy_jNkoGU?autoplay=1';
+            
+            wrapper.appendChild(frame);
+            wrapper.style.display = 'block';
+            wrapper.style.position = 'fixed';
+        });
+        
+        wrapper.addEventListener('click', function () {
+            wrapper.innerHTML = '';
+            wrapper.style.display = 'none';
         });
     </script> 
     <script>
